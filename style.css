@@ -1,0 +1,41 @@
+body{
+    background-color: antiquewhite;
+    
+}
+.cell{
+    width: 120px;
+    height: 120px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 75px;
+    cursor: pointer;
+    background-color: rgb(192, 250, 187);
+    color: rgb(24, 21, 21);
+    border-style: dashed;
+}
+#gameContainer{
+    font-family: "Permanent marker", cursive;
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    
+}
+h1{
+    font-size: 100px;
+}
+
+h3{
+    font-size: 40px;
+    color: rgb(153, 45, 12);
+    margin-left: 150px;
+}
+button{
+    margin-left: 150px;
+    font-size: 25px;
+    background-color: rgb(209, 214, 137);
+}
